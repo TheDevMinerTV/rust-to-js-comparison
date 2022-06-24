@@ -1,0 +1,14 @@
+[package]
+name = "deno_bindgen"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "deno_bindgen"
+crate-type = ["cdylib"]
+
+[dependencies]
+deno_bindgen = "0.5.1"
+serde = { version = "1.0.137", features = ["derive"] }
+
+logic = { path = "../logic" }

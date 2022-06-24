@@ -1,0 +1,13 @@
+{
+    "name": "napi",
+    "version": "0.0.0",
+    "napi": {
+        "name": "napi"
+    },
+    "devDependencies": {
+        "@napi-rs/cli": "^2.10.0"
+    },
+    "engines": {
+        "node": ">= 10"
+    }
+}

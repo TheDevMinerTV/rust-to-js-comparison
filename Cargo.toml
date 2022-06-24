@@ -1,0 +1,6 @@
+[workspace]
+
+members = ["logic", "napi", "deno_bindgen"]
+
+[profile.release]
+lto = true
