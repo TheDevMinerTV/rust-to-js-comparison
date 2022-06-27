@@ -18,5 +18,5 @@ function build() {
 build "Deno" "deno_bindgen --release && rm -rf ~/.cache/deno/plug"
 
 cd napi
-build "NAPI" "napi build --platform --release"
+build "NAPI" "yarn napi build --platform --release"
 cd ..
